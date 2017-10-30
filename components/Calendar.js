@@ -403,7 +403,7 @@ export default class Calendar extends Component {
             automaticallyAdjustContentInsets={false}
             onMomentumScrollEnd={(event) => this.scrollEnded(event)}
             style={{
-              height: this.state.rowHeight ? this.state.rowHeight * numOfWeeks : null,
+              height: this.state.rowHeight ? this.state.rowHeight * numOfWeeks + 20 : null,
             }}
           >
             {calendarDates.map((date) => this.renderCalendarView(this.props.calendarFormat, moment(date), eventDatesMap))}
