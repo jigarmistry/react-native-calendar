@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   calendarContainer: {
-    backgroundColor: '#f7f7f7',
+    backgroundColor: '#ffffff',
   },
   monthContainer: {
   },
